@@ -1,6 +1,6 @@
 // csc /target:exe bin2str.cs
 using System;
-using System.Test;
+using System.Text;
 using System.IO;
 
 class Bin2str {
