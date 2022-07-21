@@ -16,7 +16,7 @@ class Bin2str {
         
         Console.WriteLine("filesize={0}Byte(s)", fileSize);
         
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         while (remain > 0) {
             readSize = fs.Read(buf, bufPos, Math.Min(1024, remain));
             
